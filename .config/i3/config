@@ -128,3 +128,6 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+
+gaps inner 5
+gaps outer 10
