@@ -19,4 +19,4 @@ feh --bg-fill ~/.wallpaper/wallpaper.jpg
 
 picom -f
 
-dunst
+dunst &
