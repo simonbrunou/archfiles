@@ -10,3 +10,5 @@ eval "$(starship init zsh)"
 
 alias ls="lsd"
 alias cat="bat"
+alias vi="nvim"
+alias vim="nvim"
