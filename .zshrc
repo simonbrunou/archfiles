@@ -8,6 +8,8 @@ source $ZSH/oh-my-zsh.sh
 
 eval "$(starship init zsh)"
 
+export MOZ_ENABLE_WAYLAND=1
+
 alias ls="lsd"
 alias cat="bat"
 alias vi="nvim"
