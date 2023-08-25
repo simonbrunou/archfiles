@@ -3,7 +3,7 @@
     "spacing": 4,
     "modules-left": ["wlr/workspaces", "hyprland/submap"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["idle_inhibitor", "network", "cpu", "memory", "temperature", "backlight", "keyboard-state", "hyprland/language", "battery", "battery#bat2", "clock", "tray"],
+    "modules-right": ["idle_inhibitor", "wireplumber", "network", "cpu", "memory", "temperature", "backlight", "keyboard-state", "hyprland/language", "battery", "battery#bat2", "clock", "tray"],
     "keyboard-state": {
         "numlock": true,
         "capslock": true,
@@ -19,6 +19,12 @@
             "activated": "",
             "deactivated": ""
         }
+    },
+    "wireplumber": {
+        "format": "{volume}% {icon}",
+        "format-muted": "",
+        "on-click": "helvum",
+        "format-icons": ["", "", ""]
     },
     "tray": {
         "spacing": 10
