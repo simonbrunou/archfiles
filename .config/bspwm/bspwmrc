@@ -15,7 +15,7 @@ bspc rule -a Screenkey manage=off
 
 ~/.config/polybar/launch.sh
 
-feh --bg-fill ~/.wallpaper/wallpaper.jpg
+feh --bg-fill ~/.wallpaper/wallpaper.png
 
 picom -f
 
