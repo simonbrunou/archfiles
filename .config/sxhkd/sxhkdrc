@@ -16,7 +16,7 @@ super + Escape
 
 # Power menu
 super + p
-	rofi -show power-menu -modi power-menu:rofi-power-menu 
+	xfce4-session-logout
 
 #
 # bspwm hotkeys
