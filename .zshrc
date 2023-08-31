@@ -6,7 +6,7 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
-eval "$(starship init zsh)"
+eval "$(oh-my-posh init zsh)"
 
 export MOZ_ENABLE_WAYLAND=1
 
